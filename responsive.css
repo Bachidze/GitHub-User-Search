@@ -1,0 +1,74 @@
+@media (width > 768px){
+    body{
+        padding: 0 98px;
+        margin-bottom: 140px;
+        overflow-x: hidden;
+    }
+    #header{
+        margin-top: 140px;
+    }
+
+    #user{
+        font-size: 18px;
+        line-height: 25px;
+        width: 254px;
+    }
+    .btn{
+        font-size: 16px;
+        line-height: 24.17px;
+    }
+    .form{
+        padding: 10px 10px 10px 32px;
+    }
+    .name{
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .login{
+        font-size: 16px;
+        line-height: 24.17px;
+    }
+
+    .personal{
+        gap: 30px;
+    }
+    .flex{
+        gap: 20px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+   
+}
+
+@media (width > 1440px){
+    body{
+        padding-bottom: 170px;
+    }
+    #header,.card{
+        width: 730px;
+    }
+
+    .avatar-mobile{
+        width: 120px;
+        height: 120px;
+    }
+
+   .bio{
+    margin-left: 145px;
+    margin-top: -50px;
+   }
+
+   .stats{
+    margin-left: 145px;
+    width: 510px;
+    gap: 120px ;
+   }
+
+   .grid{
+    margin-left: 145px;
+   }
+}
