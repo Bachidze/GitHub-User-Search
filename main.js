@@ -108,12 +108,13 @@ function shecvla(dark) {
 mtvare.addEventListener('click', () => {
     shecvla('dark');
     document.body.style.backgroundColor = '#141D2F';
+    input.style.backgroundColor = '#141D2F'
     
 });
 mze.addEventListener('click', () => {
     shecvla('light');
     document.body.style.backgroundColor = 'white';
-
+    input.style.backgroundColor = 'white'
 });
 
 btn.addEventListener('click', async (e) => {
