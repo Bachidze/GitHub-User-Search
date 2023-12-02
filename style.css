@@ -132,6 +132,11 @@ h3.dark{
     cursor: pointer;
     border-radius: 10px;
     margin-left: auto; 
+
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 40px #0079FF;
 }
 
 .error1{
@@ -156,7 +161,12 @@ h3.dark{
 .info{
     width: 100%;
 }
-
+#mtvare{
+    cursor: pointer;
+}
+#mze{
+    cursor: pointer;
+}
 .mtavari{
     display: flex;
     align-items: center;
