@@ -120,6 +120,9 @@ h3.dark{
 #user.dark::placeholder{
     color: white;
 }
+input{
+    cursor: pointer;
+}
 
 .btn {
     padding: 12px 16px;

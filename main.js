@@ -20,6 +20,10 @@ const blog = document.querySelector('#blog')
 const twitter = document.querySelector('#twitter')
 const company = document.querySelector('#company')
 const stats = document.querySelector('.stats')
+const stattitle = document.querySelector('.stat-title')
+const amount = document.querySelector('.amount')
+const flw = document.querySelector('.flw')
+const flg = document.querySelector('.flg')
 
 
 
@@ -109,12 +113,27 @@ mtvare.addEventListener('click', () => {
     shecvla('dark');
     document.body.style.backgroundColor = '#141D2F';
     input.style.backgroundColor = '#141D2F'
-    
+    stats.style.backgroundColor = '#141D2F'
+    stattitle.style.color = 'white'
+    amount.style.color = 'white'
+    followers.style.color = 'white'
+    following.style.color = 'white'
+    repos.style.color = 'white'
+    flw.style.color = 'white'
+    flg.style.color = 'white'
 });
 mze.addEventListener('click', () => {
     shecvla('light');
     document.body.style.backgroundColor = 'white';
     input.style.backgroundColor = 'white'
+    stats.style.backgroundColor = '#F6F8FF'
+    stattitle.style.color = '#2B3442'
+    amount.style.color = '#2B3442'
+    followers.style.color = '#2B3442'
+    following.style.color = '#2B3442'
+    repos.style.color = '#2B3442'
+    flw.style.color = '#2B3442'
+    flg.style.color = '#2B3442'
 });
 
 btn.addEventListener('click', async (e) => {
